@@ -5,6 +5,11 @@ class MyFooterLearning extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.amberAccent, child: Text('Hello Footer'));
+    return Container(color: Colors.amberAccent, child: Text('Hello Footer', style:TextStyle(
+      color: Colors.black, 
+      decoration: TextDecoration.lineThrough, 
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.bold
+    ),));
   }
 }
