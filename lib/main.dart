@@ -1,3 +1,4 @@
+// import 'package:coffee_card/footer/footer.dart';
 import 'package:coffee_card/home/home.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,7 @@ void main() {
     ),
   );
 }
+// MyFooterLearning()
 
 // class Home extends StatelessWidget {
 //   const Home({super.key});
@@ -42,4 +44,6 @@ void main() {
 // }
 
 //Containers
+
+
  
